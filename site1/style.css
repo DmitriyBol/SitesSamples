@@ -1,0 +1,90 @@
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+header {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.headerOne {
+    left: 0;
+    width: 100%;
+    z-index: 16;
+}
+
+.headerDiv {
+    font-size: 18px;
+    position: relative;
+    display: flex;
+    margin-top: 80px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    flex-direction: row-reverse;
+    box-sizing: border-box;
+}
+
+.header_rowRight {
+    display: flex;
+    box-sizing: border-box;
+    flex: 100%;
+    margin-left: 95px;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 45px;
+    padding-right: 45px;
+    
+}
+.header_rowLeft {
+    display: flex;
+    box-sizing: border-box;
+    flex: 100%;
+    margin-left: 95px;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 45px;
+    padding-right: 45px;
+
+}
+
+.contact:hover {
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.nameS:hover {
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.galleryCar {
+    overflow: hidden;
+    height: 920px;
+    width: 1200px;
+}
+
+.imagecont {
+    display:flex;
+    transition: transform 1.5s ease-in-out;
+    transform: translateX(0);
+}
+
+img {
+    object-fit: cover;
+    min-width: 1280px;
+    height: 920px;
+    image-resolution:inherit;
+}
+
